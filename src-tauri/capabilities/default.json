@@ -1,0 +1,1 @@
+{ "$schema": "../gen/schemas/desktop-schema.json", "identifier": "default", "description": "Guardar únicamente en la ubicación seleccionada por el usuario.", "windows": ["main"], "permissions": ["core:default", "dialog:allow-save", "fs:allow-write-file"] }

@@ -1,0 +1,21 @@
+[package]
+name = "dpia"
+version = "0.2.0"
+description = "DpIA — estudio local de fotografía"
+license = "MIT"
+edition = "2021"
+rust-version = "1.85"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"

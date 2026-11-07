@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DpIA</string>
+    <string name="title_activity_main">DpIA</string>
+    <string name="package_name">app.dpia.studio</string>
+    <string name="custom_url_scheme">app.dpia.studio</string>
+</resources>
