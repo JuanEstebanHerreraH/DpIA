@@ -117,10 +117,6 @@ React + TypeScript + Vite para la interfaz; Canvas/OffscreenCanvas y Web Workers
 - [Hoja de ruta](docs/ROADMAP.md)
 - [Contribuir](CONTRIBUTING.md) · [Historial](CHANGELOG.md) · [Componentes de terceros](THIRD_PARTY_NOTICES.md)
 
-## Publicar en GitHub
-
-Descomprime el ZIP del código, crea un repositorio vacío y sube su contenido. Incluye `package-lock.json`, `src-tauri/Cargo.lock`, el proyecto `android/`, la documentación y las capturas. Omite `node_modules`, `dist`, carpetas de compilación, fotos privadas, archivos `.env` y claves de firma. Los ejecutables e instaladores se distribuyen por **GitHub Releases**, separados del código. Se incluyen flujos de GitHub Actions para validar y compilar.
-
 ## Licencia
 
 El código original y la documentación de DpIA se distribuyen bajo [MIT](LICENSE). Las dependencias y los modelos conservan sus licencias respectivas: MIT no las reemplaza. La imagen de muestra fue generada con la herramienta integrada de imágenes; no constituye una fotografía documental de un lugar real. Revisa [las atribuciones](THIRD_PARTY_NOTICES.md) antes de redistribuir.
